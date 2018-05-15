@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<real>968</real>
+	<real>987</real>
 	<key>license</key>
 	<dict>
 		<key>email</key>
@@ -155,50 +155,16 @@
 		<key>CPU_MenubarGraphUser</key>
 		<string>0.00 0.00 0.00 1.00</string>
 		<key>CPU_MenubarGraphWidth</key>
-		<real>21.539819717407227</real>
+		<real>10.190739631652832</real>
 		<key>CPU_MenubarGroupItems</key>
 		<integer>0</integer>
 		<key>CPU_MenubarMode</key>
 		<array>
 			<dict>
 				<key>key</key>
-				<string>100</string>
-				<key>uuid</key>
-				<string>DA583BD5-78FA-4D46-956C-EDC133DAEE48</string>
-			</dict>
-			<dict>
-				<key>key</key>
 				<string>0</string>
 				<key>uuid</key>
-				<string>7AF00E90-FD28-482B-86C0-FE0C6A208242</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>8</string>
-				<key>uuid</key>
-				<string>8BCABBC4-36E2-42CE-A0B4-9967CC4F977A</string>
-			</dict>
-			<dict>
-				<key>display</key>
-				<integer>0</integer>
-				<key>key</key>
-				<string>9</string>
-				<key>uuid</key>
-				<string>4ECA662D-74A9-4493-ABF1-EF8EDB866154</string>
-			</dict>
-			<dict>
-				<key>display</key>
-				<integer>1</integer>
-				<key>key</key>
-				<string>11</string>
-				<key>uuid</key>
-				<string>D9603577-ECDB-47A9-9F7E-23ABB46C7955</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>5</string>
-				<key>uuid</key>
-				<string>A372484D-38FF-4732-B70D-372FED9A335C</string>
+				<string>A2059128-15A8-4A89-BBD9-40D06392804B</string>
 			</dict>
 		</array>
 		<key>CPU_MenubarSingleHistoryGraph</key>
@@ -290,23 +256,15 @@
 				<true/>
 				<key>key</key>
 				<string>97F2A915-4C74-3560-9DFE-A8DF2D1E75A2</string>
-				<key>name</key>
-				<string>Macintosh HD</string>
 			</dict>
 		</array>
 		<key>Disks_MenubarMode</key>
 		<array>
 			<dict>
 				<key>key</key>
-				<string>100</string>
+				<string>5</string>
 				<key>uuid</key>
-				<string>530A20B3-5C56-428B-A8F2-2515CC2CC905</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>0</string>
-				<key>uuid</key>
-				<string>54CCA1BF-0893-48DB-82E4-5CD796682246</string>
+				<string>7489218E-3EB2-43C2-AA50-B4556862FF7F</string>
 			</dict>
 		</array>
 		<key>DropdownTheme</key>
@@ -317,73 +275,49 @@
 		<array>
 			<dict>
 				<key>model</key>
-				<string>MacBookPro13,3</string>
+				<string>MacBookAir6,2</string>
 				<key>name</key>
-				<string>Medium</string>
+				<string>Moyen</string>
 				<key>speeds</key>
 				<array>
 					<dict>
 						<key>fan</key>
 						<string>F0Ac</string>
 						<key>high</key>
-						<integer>5927</integer>
+						<integer>6500</integer>
 						<key>low</key>
-						<integer>2160</integer>
+						<integer>1200</integer>
 						<key>percentage</key>
-						<real>0.5</real>
+						<integer>50</integer>
 						<key>speed</key>
-						<integer>4043</integer>
-					</dict>
-					<dict>
-						<key>fan</key>
-						<string>F1Ac</string>
-						<key>high</key>
-						<integer>5489</integer>
-						<key>low</key>
-						<integer>2000</integer>
-						<key>percentage</key>
-						<real>0.5</real>
-						<key>speed</key>
-						<integer>3744</integer>
+						<integer>3850</integer>
 					</dict>
 				</array>
 				<key>uuid</key>
-				<string>F592E761-F92E-44A4-9FDD-9E1FEC9CE846</string>
+				<string>7E3FF0C7-3586-4AA0-ABEA-CB8382BB8ED5</string>
 			</dict>
 			<dict>
 				<key>model</key>
-				<string>MacBookPro13,3</string>
+				<string>MacBookAir6,2</string>
 				<key>name</key>
-				<string>High</string>
+				<string>Élevé</string>
 				<key>speeds</key>
 				<array>
 					<dict>
 						<key>fan</key>
 						<string>F0Ac</string>
 						<key>high</key>
-						<integer>5927</integer>
+						<integer>6500</integer>
 						<key>low</key>
-						<integer>2160</integer>
+						<integer>1200</integer>
 						<key>percentage</key>
-						<real>1</real>
+						<integer>100</integer>
 						<key>speed</key>
-						<integer>5927</integer>
-					</dict>
-					<dict>
-						<key>fan</key>
-						<string>F1Ac</string>
-						<key>high</key>
-						<integer>5489</integer>
-						<key>low</key>
-						<integer>2000</integer>
-						<key>percentage</key>
-						<real>1</real>
-						<key>speed</key>
-						<integer>5489</integer>
+						<integer>6500</integer>
 					</dict>
 				</array>
 				<key>uuid</key>
-				<string>551EE865-DAC6-4A4D-B2AA-8BA9999AB57E</string>
+				<string>47160EAA-2559-4287-9461-796CFC6F7B26</string>
 			</dict>
 		</array>
 		<key>GPU_MenubarGraphWidth</key>
@@ -396,19 +330,15 @@
 		<integer>1</integer>
 		<key>Memory_MenubarGraphBreakdowns</key>
 		<integer>0</integer>
+		<key>Memory_MenubarGraphOverall</key>
+		<string>0.00 0.00 0.00 1.00</string>
 		<key>Memory_MenubarMode</key>
 		<array>
 			<dict>
 				<key>key</key>
-				<string>100</string>
+				<string>1</string>
 				<key>uuid</key>
-				<string>EA78C8ED-8A82-4BD3-BCDA-4DAC8D545509</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>6</string>
-				<key>uuid</key>
-				<string>A4D8818D-6D8D-4B60-884F-4475CF41CB06</string>
+				<string>A0A7C55B-7372-4F2A-83E7-83CC6F1E7437</string>
 			</dict>
 		</array>
 		<key>MenubarGraphOpacity</key>
@@ -1141,6 +1071,6 @@
 		<integer>0</integer>
 	</dict>
 	<key>version</key>
-	<real>6.0999999046325684</real>
+	<real>6.1100001335144043</real>
 </dict>
 </plist>
