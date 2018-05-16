@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<real>987</real>
+	<real>968</real>
 	<key>license</key>
 	<dict>
 		<key>email</key>
@@ -19,26 +19,6 @@
 		<integer>1</integer>
 		<key>Battery_MenubarItems</key>
 		<array>
-			<dict>
-				<key>key</key>
-				<string>64-a5-c3-f1-4a-7a</string>
-				<key>name</key>
-				<string>Maxime Thirouin’s Trackpad #1</string>
-				<key>subtype</key>
-				<integer>5</integer>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>d4-dc-cd-7c-0a-e7</string>
-				<key>name</key>
-				<string>Magic Keyboard with Numeric Keypad</string>
-				<key>subtype</key>
-				<integer>4</integer>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
 			<dict>
 				<key>internal</key>
 				<true/>
@@ -73,13 +53,7 @@
 				<key>key</key>
 				<string>8</string>
 				<key>uuid</key>
-				<string>AC6C39EB-DE94-4FF9-9BF0-B54C3B8AA6F1</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>3</string>
-				<key>uuid</key>
-				<string>EE37836C-3029-4AB2-BF35-F8C3A2621E40</string>
+				<string>D8D298AA-06BF-423D-87DD-EC2F49D4BA6E</string>
 			</dict>
 		</array>
 		<key>Battery_MenubarModeBluetooth</key>
@@ -88,13 +62,7 @@
 				<key>key</key>
 				<string>8</string>
 				<key>uuid</key>
-				<string>CDECD378-B79E-46B4-9E9E-9BC78ADF7653</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>3</string>
-				<key>uuid</key>
-				<string>5C16385C-749A-4BAD-AF35-9AB1DAD22007</string>
+				<string>54EA8564-EF49-458B-910D-328F26A2BDDF</string>
 			</dict>
 		</array>
 		<key>Battery_MenubarModeCharged</key>
@@ -103,7 +71,7 @@
 				<key>key</key>
 				<string>2</string>
 				<key>uuid</key>
-				<string>6093EF7F-0BD0-4EDF-9602-69189F574729</string>
+				<string>EEF7615E-7A2B-4D3E-9AFC-050FC26803F4</string>
 			</dict>
 		</array>
 		<key>Battery_MenubarModeCharging</key>
@@ -112,13 +80,13 @@
 				<key>key</key>
 				<string>2</string>
 				<key>uuid</key>
-				<string>3EABFCEB-C8EC-4BCF-9B3B-A485460138BF</string>
+				<string>E594520F-53FE-4FAC-8EDF-28FADAAD1BA7</string>
 			</dict>
 			<dict>
 				<key>key</key>
-				<string>1</string>
+				<string>7</string>
 				<key>uuid</key>
-				<string>36A581D6-FB94-4D44-B6A5-E07C14291B34</string>
+				<string>D6CFC33A-6248-4649-A09A-3FB809286CB6</string>
 			</dict>
 		</array>
 		<key>Battery_MenubarModeDraining</key>
@@ -127,13 +95,13 @@
 				<key>key</key>
 				<string>2</string>
 				<key>uuid</key>
-				<string>040CF814-87AE-4F71-A6DA-CF0B0315717D</string>
+				<string>A124FBD4-CA57-4121-AA07-A1AA6376526B</string>
 			</dict>
 			<dict>
 				<key>key</key>
-				<string>1</string>
+				<string>7</string>
 				<key>uuid</key>
-				<string>DE8BF8E2-04A6-4F57-B6D2-627417052161</string>
+				<string>6B7D1964-4A74-48AA-B24E-AC8422244DC7</string>
 			</dict>
 		</array>
 		<key>Battery_TimeColor</key>
@@ -155,16 +123,16 @@
 		<key>CPU_MenubarGraphUser</key>
 		<string>0.00 0.00 0.00 1.00</string>
 		<key>CPU_MenubarGraphWidth</key>
-		<real>10.190739631652832</real>
+		<real>15.648920059204102</real>
 		<key>CPU_MenubarGroupItems</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>CPU_MenubarMode</key>
 		<array>
 			<dict>
 				<key>key</key>
 				<string>0</string>
 				<key>uuid</key>
-				<string>A2059128-15A8-4A89-BBD9-40D06392804B</string>
+				<string>A7D1A2F8-3F9E-459B-AD6C-CF8D8D4A171E</string>
 			</dict>
 		</array>
 		<key>CPU_MenubarSingleHistoryGraph</key>
@@ -249,6 +217,8 @@
 				<string>76BCD0D8-7C4C-4F55-86F8-59696602CED9</string>
 			</dict>
 		</array>
+		<key>Disks_MenubarGraphOverallColor</key>
+		<string>0.50 0.50 0.50 1.00</string>
 		<key>Disks_MenubarItems</key>
 		<array>
 			<dict>
@@ -262,9 +232,9 @@
 		<array>
 			<dict>
 				<key>key</key>
-				<string>5</string>
+				<string>0</string>
 				<key>uuid</key>
-				<string>7489218E-3EB2-43C2-AA50-B4556862FF7F</string>
+				<string>60308DF0-57B4-4469-9D56-C238E844AD5A</string>
 			</dict>
 		</array>
 		<key>DropdownTheme</key>
@@ -275,7 +245,7 @@
 		<array>
 			<dict>
 				<key>model</key>
-				<string>MacBookAir6,2</string>
+				<string>MacBookPro13,3</string>
 				<key>name</key>
 				<string>Moyen</string>
 				<key>speeds</key>
@@ -290,7 +260,7 @@
 						<key>percentage</key>
 						<integer>50</integer>
 						<key>speed</key>
-						<integer>3850</integer>
+						<real>190510</real>
 					</dict>
 				</array>
 				<key>uuid</key>
@@ -298,7 +268,7 @@
 			</dict>
 			<dict>
 				<key>model</key>
-				<string>MacBookAir6,2</string>
+				<string>MacBookPro13,3</string>
 				<key>name</key>
 				<string>Élevé</string>
 				<key>speeds</key>
@@ -313,7 +283,7 @@
 						<key>percentage</key>
 						<integer>100</integer>
 						<key>speed</key>
-						<integer>6500</integer>
+						<real>378860</real>
 					</dict>
 				</array>
 				<key>uuid</key>
@@ -321,24 +291,24 @@
 			</dict>
 		</array>
 		<key>GPU_MenubarGraphWidth</key>
-		<real>20.337543487548828</real>
+		<real>10.377593040466309</real>
 		<key>Memory_AppFormat</key>
 		<integer>1</integer>
 		<key>Memory_DisplayFormat</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>Memory_IgnoreInactive</key>
 		<integer>1</integer>
 		<key>Memory_MenubarGraphBreakdowns</key>
 		<integer>0</integer>
 		<key>Memory_MenubarGraphOverall</key>
-		<string>0.00 0.00 0.00 1.00</string>
+		<string>0.25 0.25 0.25 1.00</string>
 		<key>Memory_MenubarMode</key>
 		<array>
 			<dict>
 				<key>key</key>
 				<string>1</string>
 				<key>uuid</key>
-				<string>A0A7C55B-7372-4F2A-83E7-83CC6F1E7437</string>
+				<string>7C872866-DC62-49CE-A813-DB4123088A68</string>
 			</dict>
 		</array>
 		<key>MenubarGraphOpacity</key>
@@ -484,21 +454,13 @@
 			</dict>
 		</array>
 		<key>Sensors_MenubarMode</key>
-		<array>
-			<dict>
-				<key>key</key>
-				<string>3</string>
-				<key>uuid</key>
-				<string>5200636E-4C7F-49BF-AC58-7BEE8D1761C9</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Sensors_TemperatureMode</key>
 		<integer>0</integer>
 		<key>StatusItems-Order</key>
 		<array>
 			<integer>7</integer>
 			<integer>6</integer>
-			<integer>5</integer>
 			<integer>4</integer>
 			<integer>3</integer>
 			<integer>2</integer>
@@ -653,6 +615,12 @@
 		</array>
 		<key>Time_DropdownCityLayout</key>
 		<integer>1</integer>
+		<key>Time_DropdownFormat</key>
+		<array>
+			<string>HH</string>
+			<string>':'</string>
+			<string>mm</string>
+		</array>
 		<key>Time_MenubarFlashSeperators</key>
 		<integer>1</integer>
 		<key>Time_MenubarFontStyle</key>
@@ -1071,6 +1039,6 @@
 		<integer>0</integer>
 	</dict>
 	<key>version</key>
-	<real>6.1100001335144043</real>
+	<real>6.0999999046325684</real>
 </dict>
 </plist>
