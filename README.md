@@ -25,8 +25,8 @@ brew bundle check
 Open App Store, get your apps you download from this place (hello Xcode), then
 
 ```console
+export SETUPSH_GIT_EMAIL=***************************
 export SETUPSH_GIT_NAME=MoOx
-export SETUPSH_GIT_EMAIL=
 export SETUP_PATH=$HOME/setup
 
 # Ask for the administrator password upfront
@@ -39,29 +39,31 @@ sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 sudo launchctl load /System/Library/LaunchDaemons/com.apple.alf.agent.plist 2>/dev/null
 sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText  "Found this computer? Please contact $SETUPSH_GIT_NAME at $SETUPSH_GIT_EMAIL for a reward.\nVous avez trouver cet ordinateur? Merci de contacter $SETUPSH_GIT_NAME à $SETUPSH_GIT_EMAIL pour une récompense."
 
-# install pretzo
-# https://github.com/sorin-ionescu/prezto/#installation
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-
 # define zsh as default shell
 chsh -s /bin/zsh $USER
+# use zsh now
+zsh
 
 # Command Line Tools (CLT) for Xcode
 xcode-select --install
 sudo xcodebuild -license
+
+# install pretzo
+# https://github.com/sorin-ionescu/prezto/#installation
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 git clone https://github.com/$SETUPSH_GIT_NAME/setup.git $SETUP_PATH
 
-for file in $SETUP_PATH/functions/* do; source $file; done
+for file in $SETUP_PATH/functions/*; do; source $file; done
 
 sourceFiles $SETUP_PATH/preferences/*.prefs
 
 dotfiles
 
-source $SETUP_PATH/.zshrc
+source ~/.zshrc
 
 macos-hidden-show
 
