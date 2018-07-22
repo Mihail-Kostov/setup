@@ -55,6 +55,16 @@ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$H
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install/setup sync strategy before registring dotfiles & stuff that might need synced files (eg: for git ssh config etc)
+
+brew cask install "syncthing-bar"
+
+# then configure syncthing and way for the sync
+
+source ./setup/scripts/custom-folders.sh
+
+# get setup and dotfiles now that we have launched sync
+
 git clone https://github.com/$SETUPSH_GIT_NAME/setup.git $SETUP_PATH
 
 for file in $SETUP_PATH/functions/*; do; source $file; done
@@ -66,12 +76,6 @@ dotfiles
 source ~/.zshrc
 
 macos-hidden-show
-
-brew cask install "syncthing-bar"
-
-# then configure syncthing and way for the sync
-
-source ./setup/scripts/custom-folders.sh
 
 brew install mas
 
