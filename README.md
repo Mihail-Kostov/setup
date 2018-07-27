@@ -87,8 +87,8 @@ brew bundle
 export NVS_HOME="$HOME/.nvs"
 git clone https://github.com/jasongin/nvs "$NVS_HOME"
 . "$NVS_HOME/nvs.sh" install
-nvs add node/8
-nvs link 8
+nvs add node/10
+nvs link 10
 
 # safer than rm
 yarn global add trash-cli
